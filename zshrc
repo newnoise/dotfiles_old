@@ -35,13 +35,13 @@ alias ohmyzsh="mvim ~/.oh-my-zsh"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python cp OSX brew)
+plugins=(git python cp )
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-export PATH=/Users/thomasituarte/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:.
+export PATH=/Users/thomasituarte/.rvm/bin:/usr/local/avr:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:.
 
 MEYER=tomi@192.168.60.107\ -Y
 export MEYER
