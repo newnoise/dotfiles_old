@@ -41,9 +41,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-export PATH=/Users/thomasituarte/.rvm/bin:/usr/local/avr:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:.
+export PATH=.:/Users/thomasituarte/.rvm/bin:/usr/local/avr-tools/avr8-gnu-toolchain-linux_x86_64/bin:/usr/local/tas-tools/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/heroku/bin:.
 
 MEYER=tomi@192.168.60.107\ -Y
 export MEYER
 
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
