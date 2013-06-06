@@ -69,6 +69,7 @@ set background=dark
 ":color grb256
 "colorscheme desertEx
 "set gfn=Inconsolata\ Medium\ 13
+set gfn=Inconsolata:h15
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " STATUS LINE
